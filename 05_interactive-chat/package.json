@@ -1,0 +1,9 @@
+{
+  "name": "05-interactive-chat",
+  "version": "1.0.0",
+  "description": "標準入力を使った対話型 AI アプリケーションのサンプル",
+  "private": true,
+  "dependencies": {
+    "openai": "^4.73.0"
+  }
+}

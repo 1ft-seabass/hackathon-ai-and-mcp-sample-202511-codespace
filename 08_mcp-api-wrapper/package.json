@@ -1,0 +1,21 @@
+{
+  "name": "08-mcp-api-wrapper",
+  "version": "1.0.0",
+  "description": "MCP で外部 API をラップするサンプル",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "server": "npx tsx src/weather-server.ts",
+    "client": "npx tsx src/weather-client.ts",
+    "dev": "npx tsx watch src/weather-server.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "openai": "^4.77.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

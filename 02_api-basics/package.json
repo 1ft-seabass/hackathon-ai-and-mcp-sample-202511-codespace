@@ -1,0 +1,9 @@
+{
+  "name": "02-api-basics",
+  "version": "1.0.0",
+  "description": "OpenAI ChatGPT API の基本的な使い方サンプル",
+  "private": true,
+  "dependencies": {
+    "openai": "^4.73.0"
+  }
+}

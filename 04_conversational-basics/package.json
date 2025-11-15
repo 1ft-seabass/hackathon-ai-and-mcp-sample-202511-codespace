@@ -1,0 +1,9 @@
+{
+  "name": "04-conversational-basics",
+  "version": "1.0.0",
+  "description": "継続会話（Conversational AI）の基礎サンプル",
+  "private": true,
+  "dependencies": {
+    "openai": "^4.73.0"
+  }
+}

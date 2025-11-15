@@ -1,0 +1,9 @@
+{
+  "name": "03-function-calling",
+  "version": "1.0.0",
+  "description": "Function Calling（Tool Use）のサンプル",
+  "private": true,
+  "dependencies": {
+    "openai": "^4.73.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "07-mcp-basics",
+  "version": "1.0.0",
+  "description": "Model Context Protocol（MCP）の基本サンプル",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "server": "npx tsx src/simple-server.ts",
+    "execute": "npx tsx src/execute-client.ts",
+    "client": "npx tsx src/interactive-client.ts",
+    "dev": "npx tsx watch src/simple-server.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "openai": "^4.77.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

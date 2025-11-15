@@ -10,8 +10,9 @@ import * as readline from "readline/promises";
  * 実際の外部API（wttr.in）を呼び出す実用的な例です。
  */
 
-// OpenAI API キーを環境変数または直接指定
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY || "your-api-key-here";
+// OpenAI API キー
+// お使いになる OpenAI API キーに差し替えましょう
+const OPENAI_API_KEY = "OPENAI_API_KEY";
 
 // OpenAI クライアント初期化
 const openai = new OpenAI({

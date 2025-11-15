@@ -9,8 +9,9 @@ import OpenAI from "openai";
  * 固定の質問で動作確認できるため、初めてのMCP体験に最適です。
  */
 
-// OpenAI API キーを環境変数または直接指定
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY || "your-api-key-here";
+// OpenAI API キー
+// お使いになる OpenAI API キーに差し替えましょう
+const OPENAI_API_KEY = "OPENAI_API_KEY";
 
 // OpenAI クライアント初期化
 const openai = new OpenAI({
